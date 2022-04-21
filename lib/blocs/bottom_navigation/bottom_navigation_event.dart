@@ -16,5 +16,4 @@ class TabChangeEvent extends BottomNavigationEvent {
   @override
   // TODO: implement props
   List<Object> get props => [newIndex];
-
 }

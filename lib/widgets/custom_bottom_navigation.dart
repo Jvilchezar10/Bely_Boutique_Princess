@@ -16,7 +16,7 @@ class CustomBottomNavigationBar extends StatelessWidget {
   Widget build(BuildContext context) {
     final navigationKey = GlobalKey<CurvedNavigationBarState>();
     final bottomNavigationBloc = context.read<BottomNavigationBloc>();
-
+    
     return BlocBuilder<BottomNavigationBloc, int>(
       builder: (context, state) {
         return Theme(
@@ -26,7 +26,7 @@ class CustomBottomNavigationBar extends StatelessWidget {
             key: navigationKey,
             index: state,
             height: 60,
-            backgroundColor: Colors.white,
+            backgroundColor: Colors.transparent,
             animationCurve: Curves.easeInOut,
             animationDuration: const Duration(milliseconds: 400),
             color: Colors.pink,
