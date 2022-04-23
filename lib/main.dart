@@ -1,4 +1,5 @@
 import 'package:bely_boutique/screens/home_screen.dart';
+import 'package:bely_boutique/views/prueba.dart';
 import 'package:flutter/material.dart';
 
 void main() {

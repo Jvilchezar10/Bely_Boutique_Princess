@@ -25,7 +25,7 @@ class CustomBottomNavigationBar extends StatelessWidget {
           child: CurvedNavigationBar(
             key: navigationKey,
             index: state,
-            height: 60,
+            height: 60, 
             backgroundColor: Colors.transparent,
             animationCurve: Curves.easeInOut,
             animationDuration: const Duration(milliseconds: 400),

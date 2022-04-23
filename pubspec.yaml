@@ -20,7 +20,9 @@ dependencies:
   flutter_bloc: ^8.0.1
   fluttertoast: ^8.0.9
   firebase_core: 
-  cloud_firestore: ^3.1.13
+  google_fonts: ^2.3.1
+  intl:
+  image_picker: ^0.8.5
 
 dev_dependencies:
 
@@ -47,6 +49,7 @@ flutter:
   assets:
     - graphics/images/whatsapp_logo.png
     - graphics/images/bely_logo-edit.png
+    - graphics/images/Bestido 1_n.jpg
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
